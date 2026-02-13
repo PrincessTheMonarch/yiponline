@@ -1,0 +1,192 @@
+/* general settings */
+body{
+    background-color: #fbfbfb;
+    margin:0;
+    font-family: 'Open Sans';
+}
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.primarybutton{
+    border-radius: 24px;
+    height: 48px; width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+    border: none;
+    gap: 16px;
+    color: #2289CE;
+    font-weight: 600;
+}
+#subtext{
+    line-height: 160%;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+/* hero section */
+#Herosection{
+    background-image: url(../Images/HeroBackground.png);
+    background-size: cover;
+    padding: 0 200px;
+    height: 800px;
+    color: #fbfbfb;
+}
+
+#header{
+    display: flex;
+    padding: 24px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigations a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+#navigations {
+    display: flex;
+    gap: 24px;
+}
+
+#herotext{
+    display: flex;
+    height: 600px;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+#rightside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 484px; height: 400px;
+    line-height: 160%;
+    font-weight: 100;
+    text-align: right;
+    gap: 40px;
+}
+
+#whoweare{
+    padding-top: 40px ; padding-left:200px ; padding-right: 200px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    height: 440px;
+    background-image: url(/Images/Vector.png);
+    background-repeat: no-repeat;
+}
+#right h2{
+    font-weight: 400;
+}
+
+/* mission and vision */
+#missionvision{
+    padding: 40px 200px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+#image2{
+  margin-top: -100px;
+  margin-left: 100px;
+}
+
+#wecanhelp{
+    padding: 40px 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+
+/* solution provided */
+#solutionprovided{
+    padding: 80px 200px 200px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Images/Vector.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#images {
+    display: flex;
+    gap: 24px;
+    width: 100%; height: 100%;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.card{
+  min-height: 280px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  color: #fbfbfb;
+}
+#solutionprovided h2{ font-weight: 300;}
+#ecommerce{
+    background-image: url(/Images/ecommerce.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 8px;
+}
+#hospitality{
+    background-image: url(/Images/hospitality.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 8px;
+}
+#search{
+    background-image: url(/Images/search.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 8px;
+}
+#responsive{
+    background-image: url(/Images/responsive.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 8px;
+}
+#custom{
+    background-image: url(/Images/custom.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 8px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caption{
+    color: #2289CE;
+    font-weight: 600;
+}
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+#footerlogo{
+    width: 200px; height: 101px;
+}
